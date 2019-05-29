@@ -1,7 +1,9 @@
-
-
-  .container-native{
+.container-native {
     margin: 10% 2%;
     padding: 5%;
     border-radius: 4px;
+}
+
+.bg {
+    background-color: #a48ef9;
 }

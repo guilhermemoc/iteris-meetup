@@ -5,9 +5,14 @@ import { AppComponent } from './app.component';
 import { TesteComponent } from './teste/teste.component';
 import { FormUmComponent } from './teste/componentes/form-um/form-um.component';
 import { FormDoisComponent } from './teste/componentes/form-dois/form-dois.component';
+import { ScssMeetupComponent } from './scss-meetup/scss-meetup.component';
+import { BootstrapMeetupComponent } from './bootstrap-meetup/bootstrap-meetup.component';
+import { BoxGridExemploComponent } from './bootstrap-meetup/componentes/box-grid-exemplo/box-grid-exemplo.component';
 
 const appRoutes: Routes = [
   { path: '', component: TesteComponent },
+  { path: 'css', component: ScssMeetupComponent },
+  { path: 'bootstrap', component: BootstrapMeetupComponent },
 ];
 
 @NgModule({
@@ -15,7 +20,10 @@ const appRoutes: Routes = [
     AppComponent,
     TesteComponent,
     FormUmComponent,
-    FormDoisComponent
+    FormDoisComponent,
+    ScssMeetupComponent,
+    BootstrapMeetupComponent,
+    BoxGridExemploComponent
   ],
   imports: [
     BrowserModule,

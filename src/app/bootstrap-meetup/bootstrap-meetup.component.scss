@@ -1,0 +1,44 @@
+@import 'src/app/shared/styles/variables';
+
+
+.gradient-one {
+    background: #704cca;
+    background: -moz-linear-gradient(-45deg, #704cca 0%, #744ace 100%);
+    background: -webkit-linear-gradient(-45deg, #704cca 0%, #744ace 100%);
+    background: linear-gradient(135deg, #704cca 0%, #744ace 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#704cca', endColorstr='#744ace', GradientType=1);
+}
+
+.gradient-two {
+    background: #548fd5;
+    background: -moz-linear-gradient(-45deg, #548fd5 0%, #5591d7 100%);
+    background: -webkit-linear-gradient(-45deg, #548fd5 0%, #5591d7 100%);
+    background: linear-gradient(135deg, #548fd5 0%, #5591d7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#548fd5', endColorstr='#5591d7', GradientType=1);
+}
+
+.gratient-three {
+    background: #6cb8bc;
+    background: -moz-linear-gradient(-45deg, #6cb8bc 1%, #66b6b7 100%);
+    background: -webkit-linear-gradient(-45deg, #6cb8bc 1%, #66b6b7 100%);
+    background: linear-gradient(135deg, #6cb8bc 1%, #66b6b7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6cb8bc', endColorstr='#66b6b7', GradientType=1);
+}
+
+.bg {
+    background-color: $bg;
+    min-height: 100vh;
+}
+
+.botlogo {
+    color: $light-gr;
+    font-size: 5em;
+}
+
+.logo {
+    h1 {
+        line-height: 86px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+}
