@@ -1,64 +1,25 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
-.card-form {
-  width: 500px;
-  border-radius: 10px;
-  background: white;
-  box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+$blue-deep: #272155;
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+
+.container-native{
+    background: $blue-deep;
+    margin: 10% 2%;
+    padding: 5%;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 10px -2px rgba(0,0,0,0.75);
 }
-.card-form .form-title {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80px;
-  font-size: 20px;
-  font-weight: bold;
-  background: #27ae60;
-  border-radius: 10px 10px 0 0;
+
+.heading-none, .small-none{
+    color: #fff;
 }
-.card-form .form-body {
-  padding: 10px;
-}
-.card-form .form-body .row {
-  display: flex;
-  justify-content: space-around;
-  padding: 10px;
-}
-.card-form .form-body .row input[type="text"] {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  width: 100%;
-  margin: 0 15px;
-  height: 35px;
-  padding: 5px 15px;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-  background: #e8ebed;
-  color: #576366;
-  font-size: 14px;
-}
-.card-form .rule {
-  height: 2px;
-  background: #e8ebed;
-  margin: 0px 35px;
-}
-.card-form .form-footer {
-  margin: 0 25px 15px 25px;
-  padding: 15px 10px;
-}
-.card-form .form-footer a {
-  display: inline-block;
-  height: 40px;
-  line-height: 40px;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 15px;
-  background: #27ae60;
-  margin-right: 10px;
-  font-size: 14px;
-}
-.card-form .form-footer span {
-  margin-left: 8px;
+
+.icone{
+    font-size: 13em;
+    color: #fff;
 }
